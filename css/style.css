@@ -1,0 +1,63 @@
+ /* css. cascade style sheet */
+
+        /* apply sequence 
+           1. html
+           2. id
+           3. class
+           4. element
+        */
+
+        /* class selector */
+        .txt{
+            color: white; 
+            background-color: green;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 50px;
+        }
+
+        .txtbox{
+            color: blue; 
+            background-color: bisque; 
+            border-radius: 100px; 
+            padding: 10px; 
+            border-color: whitesmoke;    
+        }
+
+        /* begin id selector*/
+
+        /*  Note : Id selector should be used only for on element */
+
+        /* Id selector Not recommended to use */
+
+        #btn{
+            background-color: blue; 
+            color: white; 
+            padding: 10px; 
+            border-radius: 100px; 
+            border-width:0cap; 
+            width: 150px;
+        }
+        
+        /* id selector*
+
+
+        /* end element selector */
+
+        h2{
+            color: blueviolet;
+        }
+
+       /* universal selector  - get applied to full page */
+        *{
+          font-size: 30px;   
+        }
+
+        .txt2{
+            color:brown !important
+            /*when you add important all others color settings get overwrite*/
+        }
+
+        #txt3
+        {
+            color: aqua;
+        }

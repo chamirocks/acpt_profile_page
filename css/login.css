@@ -1,0 +1,64 @@
+/*style sheet for login page*/
+.hdr01{
+    color: red; 
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    margin-left: 500px;
+    
+}
+
+.txtinp01{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    margin-left: 500px;
+    border-radius: 15px;
+}
+
+.Btn01{
+    background-color: green;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    border: solid;
+    border-color: red;
+    margin-left: 500px;
+    border-radius: 25px;
+}
+
+.div01{
+    margin-left: 500px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.img01{
+    margin-left: 500px;
+    border-radius: 15px;
+}
+
+.box01{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+
+    /*if posisittion is relative you can move to any place you want , doesn't get free from surface
+    position:relative;
+    top: 200px;
+    left: 600px;
+    */
+
+    /*if posisittion is relative you can move to any place you want, get free from surface 
+    position:absolute;
+    top: 200px;
+    left: 600px;
+    */
+
+    position:sticky;
+    top: 0px;
+}

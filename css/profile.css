@@ -1,0 +1,132 @@
+/*begin css re-set*/
+*{
+   margin: 0;
+   padding: 0;
+}
+/* end css re-set*/
+
+.img01{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.box01{
+    width: 100vw;
+    height: 100vh;
+    background-color: dodgerblue;
+    justify-content: center;
+    align-items: center;
+}
+.box02{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -200px;
+    width: 400px;
+    height: 460px;    
+    border-radius: 10px;
+}
+.box03{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    border-radius: 100px;
+    background-color: dodgerblue;
+    width: 80px;
+    height: 80px;
+}
+
+.box04{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+}
+.box05{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+.box06{
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    border-radius: 100px;
+    margin-left: 70px;
+}
+
+.box07{
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    border-radius: 100px;
+    margin-left: 70px;
+}
+
+.box08{
+    padding: 30px;
+    background-color:  rgb(223, 219, 219);
+    justify-content: center;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input {
+    outline-color: dodgerblue;
+}
+
+button {
+    outline-color: dodgerblue;
+}
+
+
+.txtinp01{
+    background-color: rgb(223, 219, 219);
+    border-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 60%;
+}
+
+.Btn01{
+    background-color: dodgerblue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    border: solid;
+    border-color: whitesmoke;
+    border-radius: 10px;
+    width: 66%;
+    outline-color: dodgerblue;
+}
+
+.lbl01{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.lbl02{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    justify-content: center;
+}
+
+.lnk01{
+    text-decoration: none;
+    text-decoration-color: dodgerblue;
+    color: dodgerblue;
+    outline-color: dodgerblue;
+}
+
+
+
